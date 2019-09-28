@@ -1,0 +1,92 @@
+﻿
+.header-container {
+    padding-top: 20px;
+}
+
+.legalContent {
+    color: #2E2E2E;
+    font: normal 12px/15px Arial, Helvetica, sans-serif;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+    .legalContent .kad-footer {
+        color: #C41230;
+        font-weight: normal;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+.legalContent {
+    text-align: center;
+    font: normal 10px/13px Helvetica, Arial, sans-serif;
+    color: #707070;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+    .legalContent .link {
+        color: #005ABB;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 11px;
+        line-height: 130%;
+        padding-bottom: 20px;
+        text-decoration: none;
+    }
+
+.footertextContent {
+    color: #464646;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 1.2em;
+    text-align: Left;
+    padding-bottom: 20px;
+}
+
+    .footertextContent a {
+        color: #464646;
+        text-decoration: none;
+    }
+
+.link-roll-color-underline:hover {
+    color: #F42434 !important;
+    text-decoration: underline;
+}
+
+.link-roll-color:hover {
+    color: #F42434 !important;
+    text-decoration: none;
+}
+
+
+/*BOOTSTRAP 4 Documentation*/
+/*Link: https://getbootstrap.com/docs/4.0/layout/overview/*/
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .header-left-content {
+        text-align: center;
+    }
+
+    .header-right-content {
+        text-align: right;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
